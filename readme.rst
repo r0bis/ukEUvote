@@ -1,15 +1,15 @@
 EU Referendum: Tracking UK government petition signature count
 --------------------------------------------------------------
-.. image:: https://github.com/r0bis/ukEUvote/blob/master/graphs/votes_2016_06_27-18_30.png
+.. image:: https://github.com/r0bis/ukEUvote/blob/master/graphs/votes_2016_06_27-19_00.png
 
 Latest news:
 ~~~~~~~~~~~~
 
-Activity seems to be slowing down a bit. Yesterday it was about 60 K per hour in the morning, then averaged 45,685 over next 13 hours; now it is trailing from 24 K in the morning to 11 K. We will see if in the evening activity picks up again or trails off.
+* Activity seems to be slowing down a bit. Yesterday it was about 60 K per hour in the morning, then averaged 45,685 over next 13 hours; now it is trailing from 24 K in the morning to 11 K. We will see if in the evening activity picks up again or trails off.
+* Now this repo automatically updates every 5 minutes and you can find latest `data <https://github.com/r0bis/ukEUvote/tree/master/data>`_ and half-hourly `graphs <https://github.com/r0bis/ukEUvote/tree/master/graphs>`_ in their respective directories. Graph on this page may lag behind a little.
+* In additon there is a brilliant data crunching page `that shows how many votes come from totally unexpected geographic locations and how many from Britain <http://kosso.eu/petition/#/>`_
 
-In additon there is a brilliant data crunching page `that shows how many votes come from totally unexpected geographic locations and how many from Britain <http://kosso.eu/petition/#/>`_
 
-Now this repo automatically updates every 5 minutes and you can find latest `data <https://github.com/r0bis/ukEUvote/tree/master/data>`_ and half-hourly `graphs <https://github.com/r0bis/ukEUvote/tree/master/graphs>`_ in their respective directories. Graph on this page may lag behind a little.
 
 About this graph
 ~~~~~~~~~~~~~~~~
