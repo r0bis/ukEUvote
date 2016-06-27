@@ -1,26 +1,25 @@
-EU Referendum: Web Scraping UK government petition count
---------------------------------------------------------
-.. image:: https://github.com/r0bis/ukEUvote/blob/master/graphs/votes_2016_06_27-11_49.png
-    :width: 200 px
+EU Referendum: Tracking UK government petition signature count
+--------------------------------------------------------------
+.. image:: https://github.com/r0bis/ukEUvote/blob/master/graphs/votes_2016_06_27-13_12.png
     
 This is a quick way to keep track of how fast new requests are coming in for the petition for the 2nd referendum on EU membership. Here I am not so much concerned with the obvious political aspects but with how to track and document the amount of votes for the petition and the speed with which they come in.
 
 In fact I was quite sure the number of votes will stop around several hundred thousand - once the threshold is reached. But it did not happen.
 
-So that everybody could check the source of the petition page and see that data collection method is valid I add link to the page `Petition to the UK Government for the 2nd EU referendum <https://petition.parliament.uk/petitions/131215>`_. Source code of a webpage is usually shown with ``Ctrl-U`` combination.
+So that everybody could check the source code of the petition page and see that data collection method I am employing in my R script is valid I am including the link to `Petition to the UK Government for the 2nd EU referendum <https://petition.parliament.uk/petitions/131215>`_. Source code of a webpage is usually shown with ``Ctrl-U`` combination.
 
 Tasks
 ~~~~~
 
 * get the total number of undersigned people and time when the number was gathered
-* plot the timeline
-* provide the dataset to general public
+* plot the the signature count against time
+* provide the data to general public
 
-This is the very beginning of this small project. I am running the data collection script every 5 minutes. I am updating the graph by running the graph script manually. I am pushing results to github a couple of times a day.
+It is the first stage of this small project. I am automatically running the data collection script ``voteBcount.R`` every 5 minutes. I am aming to update the graph manually by running the graph script ``votegraph.R`` manually. I will be pushing results to this github site a couple of times a day.
 
-Most importantly - I do not interfere with the numbers I collect. For that reason everyone with basic R understanding (like me) can reproduce this data collection and graphing exercise. Hence everyone could replicate the same results as I have. 
+Most importantly - I do not interfere with the numbers I collect. For that reason everyone with basic R understanding (like me) can quite easily reproduce this data collection and graphing exercise. Hence everyone could replicate the results I have. 
 
-Todo to improve
+Todo to improve:
 ~~~~~~~~~~~~~~~~
 
 * to track speed/rate at which the signatures are coming in
@@ -51,15 +50,16 @@ Rob
     
     The following objects are masked from ‘package:base’:
         intersect, setdiff, setequal, union
-    
-    [1] 3676966
-    [1]  63467 66725 54115 57959 72232 41902 39968 41523 39549 39391 37541 34765
+        
+     [1] 3704087
+     [1] 63467 66725 54115 57959 72232 41902 39968 41523 39549 39391 37541 34765
     [13] 33206 29519 17603  8383  4014  2503  1854  1414   143  2419 10038 20808
-    [25] 26895 21885 16961
-    
-Line starting with ``[1]`` gives total vote count, the next lines give petition signature counts per hour starting from sunday the 26th June at 9 AM.
+    [25] 26895 21885 19850 17084  3722
 
-Please note this simple analysis is *not* for debate on whether signatures are fraudulent or not. Government has enough means to cross reference the petition signatures with other databases (e.g. electoral registers) to filter out ineligible votes; it also certainly can delete fraudulent one-time e-mail address based signatures. Apparently the latter may have happened on Sunday the 26th at about 2 PM. I do not have any other explanation for the dip in vote count.
+    
+Line starting with ``[1]`` gives total vote count, the subsequent lines again starting with ``[1]`` give **petition signature counts per hour** starting from sunday the 26th June at 9 AM.
+
+**Please note** this simple analysis is *not* for debate on whether signatures are fraudulent or not. Government has enough means to cross reference the petition signatures with other databases (e.g. electoral registers) to filter out ineligible votes or duplicates; it also certainly can delete fraudulent one-time e-mail address based signatures. Apparently the latter may have happened on Sunday the 26th at about 2 PM. I do not have any other explanation for the dip in vote count.
 
 
 R
