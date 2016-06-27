@@ -1,6 +1,7 @@
 # this script is run every 5 minutes by operating system
 # on linux this is run through cron:
 # */5 * * * * /usr/bin/Rscript /home/username/src/ukEUvote/bin/voteBcount.R
+# of course username should be replaced with your unix/mac/linux login name
 # but that can be adapted on Mac and Windows undoubtedly
 
 library(rvest)

@@ -1,6 +1,8 @@
 EU Referendum: Web Scraping UK government petition count
 --------------------------------------------------------
-
+.. image:: https://github.com/r0bis/ukEUvote/blob/master/graphs/votes_2016_06_27-11_49.png
+    :width: 600 px
+    
 This is a quick way to keep track of how fast new requests are coming in for the petition for the 2nd referendum on EU membership. Here I am not so much concerned with the obvious political aspects but with how to track and document the amount of votes for the petition and the speed with which they come in.
 
 In fact I was quite sure the number of votes will stop around several hundred thousand - once the threshold is reached. But it did not happen.
