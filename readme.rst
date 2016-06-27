@@ -9,7 +9,7 @@ Activity seems to be slowing down a bit. Yesterday it was about 60 K per hour in
 
 In additon there is a brilliant data crunching page `that shows how many votes come from totally unexpected geographic locations and how many from Britain <http://kosso.eu/petition/#/>`_
 
-Now this repo automatically updates every 5 minutes and you can find latest `data <https://github.com/r0bis/ukEUvote/tree/master/graphs and `half-hourly graphs <https://github.com/r0bis/ukEUvote/tree/master/graphs>`_ in their respective directories. This page image may be lagging behind a little.
+Now this repo automatically updates every 5 minutes and you can find latest `data <https://github.com/r0bis/ukEUvote/tree/master/data>`_ and `half-hourly graphs <https://github.com/r0bis/ukEUvote/tree/master/graphs>`_ in their respective directories. Graph on this page image may be lag behind a little.
 
 About this graph
 ~~~~~~~~~~~~~~~~
