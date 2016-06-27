@@ -1,6 +1,16 @@
 EU Referendum: Tracking UK government petition signature count
 --------------------------------------------------------------
-.. image:: https://github.com/r0bis/ukEUvote/blob/master/graphs/votes_2016_06_27-15_14.png
+.. image:: https://github.com/r0bis/ukEUvote/blob/master/graphs/votes_2016_06_27-18_00.png
+
+Latest news:
+~~~~~~~~~~~~
+
+Activity seems to be slowing down a bit. Yesterday it was about 60 K per hour in the morning, then averaged 45,685 over next 13 hours; now it is trailing from 24 K in the morning to 11 K. We will see if in the evening activity picks up again or trails off.
+
+In additon there is a brilliant data crunching page `that shows how many votes come from totally unexpected geographic locations and how many from Britain <http://kosso.eu/petition/#/>`_
+
+About this graph
+~~~~~~~~~~~~~~~~
     
 This is a quick way to keep track of how fast new requests are coming in for the petition for the 2nd referendum on EU membership. Here I am not so much concerned with the obvious political aspects but with how to track and document the amount of votes for the petition and the speed with which they come in.
 
