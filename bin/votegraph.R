@@ -15,23 +15,32 @@ maxLab <- as.character(format(maxCount,big.mark=",",scientific=FALSE))
 # print maxVotecount in case we are running it interactively
 max(votedfB$votecount)
 
-# make and output plot
+# calculate votes per hour
+votedfB$hour <- floor_date(votedfB$time, unit = "hour")
+maxHvote <- as.data.frame(votedfB %>% group_by(hour) %>% slice(which.max(votecount)))$votecount
+minHvote <- as.data.frame(votedfB %>% group_by(hour) %>% slice(which.min(votecount)))$votecount
+last5hvotes <- head(tail(maxHvote - minHvote,6),5)
+labLast5hvotes <- paste(format(last5hvotes,big.mark=",",scientific=FALSE), sep=" ",collapse = " => ")
+
+
+# make and then save output plot
 voteplot <- ggplot(votedfB,aes(x=time,y=votecount))
 voteplot <- voteplot + geom_line(colour = "#008800", size = 1.2) +
   ylab("Vote count") + xlab("Time") +
   ggtitle(paste("2nd referendum petition vote counts on",format(now(), "%A %d %b, %Y @ %H:%M") ))
 # annotate and apply theme
-voteplot <- voteplot +   annotate(hjust=1, "text", y=3287000, x=(now()-1000), label = paste("Maximum count reached so far: ", maxLab), colour = "darkred") +
-  annotate(hjust=1, "text", y=2950000, x=(now()-1000), label = "Data collection started at on 26th June at 9 AM from \n https://petition.parliament.uk/petitions/131215") +
+voteplot <- voteplot +
+  annotate(hjust=1, "text", y=3287000, x=(now()-1000), label = paste("Maximum count reached so far: ", maxLab), colour = "darkred") +
+  annotate(hjust=1, "text", y=2980000, x=(now()-1000), label = "Data collection started at on 26th June at 9 AM from \n https://petition.parliament.uk/petitions/131215") +
+  annotate(hjust=1, "text", y=2905000, x=(now()-1000), label = paste("Votes per hour over last 5 hours: ",labLast5hvotes)) +
   theme_igray() + scale_colour_tableau()
-
 
 # save latest plot; files in graphs folder will be sorted automatically by name
 ggsave(plot = voteplot, filename = paste("~/src/ukEUvote/graphs/votes_",format(now(), "%Y_%m_%d-%H_%M"),".png",sep=""), width=170, height=107, units="mm" , scale = 1.2)
 
 # output signature activity per hour (group by hour, then subtract min from max in that hour)
-# presently just print the countperhour on terminal. 
-votedfB$hour <- floor_date(votedfB$time, unit = "hour")
-maxHvote <- as.data.frame(votedfB %>% group_by(hour) %>% slice(which.max(votecount)))$votecount 
-minHvote <- as.data.frame(votedfB %>% group_by(hour) %>% slice(which.min(votecount)))$votecount
+# presently just print the countperhour on terminal.
+
+# print votes over all hours on terminal
 maxHvote - minHvote
+
