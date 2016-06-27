@@ -59,4 +59,7 @@ Line starting with ``[1]`` gives total vote count, the next lines give petition 
 
 Please note this simple analysis is *not* for debate on whether signatures are fraudulent or not. Government has enough means to cross reference the petition signatures with other databases (e.g. electoral registers) to filter out ineligible votes; it also certainly can delete fraudulent one-time e-mail address based signatures. Apparently the latter may have happened on Sunday the 26th at about 2 PM. I do not have any other explanation for the dip in vote count.
 
+.. image:: https://github.com/r0bis/ukEUvote/blob/master/graphs/votes_2016_06_27-11_49.png
+
+
 R
