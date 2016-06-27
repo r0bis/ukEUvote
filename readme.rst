@@ -1,7 +1,7 @@
 EU Referendum: Web Scraping UK government petition count
 --------------------------------------------------------
 .. image:: https://github.com/r0bis/ukEUvote/blob/master/graphs/votes_2016_06_27-11_49.png
-    :width: 470 px
+    :width: 200 px
     
 This is a quick way to keep track of how fast new requests are coming in for the petition for the 2nd referendum on EU membership. Here I am not so much concerned with the obvious political aspects but with how to track and document the amount of votes for the petition and the speed with which they come in.
 
@@ -60,8 +60,6 @@ Rob
 Line starting with ``[1]`` gives total vote count, the next lines give petition signature counts per hour starting from sunday the 26th June at 9 AM.
 
 Please note this simple analysis is *not* for debate on whether signatures are fraudulent or not. Government has enough means to cross reference the petition signatures with other databases (e.g. electoral registers) to filter out ineligible votes; it also certainly can delete fraudulent one-time e-mail address based signatures. Apparently the latter may have happened on Sunday the 26th at about 2 PM. I do not have any other explanation for the dip in vote count.
-
-.. image:: https://github.com/r0bis/ukEUvote/blob/master/graphs/votes_2016_06_27-11_49.png
 
 
 R
