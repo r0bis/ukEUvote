@@ -5,6 +5,7 @@ EU Referendum: Tracking UK government petition signature count
 Latest news:
 ~~~~~~~~~~~~
 
+* Sorry - a bit of glitch with the automatic update - until **9 PM** tonight there will be no further update here; after 9 PM all the latest data for today will be available (that includes the front page graph, 5 minute updates in the ``data`` directory file ``voteBdata.csv`` and all the half-hourly graphs for today in ``graphs`` directory). I have to add one automatic command to the update script and I will get home only at 9 today.
 * Signatures still trickling in overnight and reached **3.9 million** at ~ 6 AM today. 
 * Activity did slow down during during the working Monday from 24 K in the morning to 11 K about 6PM. However in the evening it picked up again peaking at 31 K and trailing to 16 K before 10 PM. 
 * On Sunday activity was about 60 K per hour in the morning, then averaged 45,685 over next 13 hours. On Sunday before 2 PM 77 K signatures were discarded by the Government, it would appear - that is the notch you can see in the graph. Every internet based form can expect some people might use it improperly - please see *Disclaimer* at the bottom of this page. 
