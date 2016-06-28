@@ -44,3 +44,5 @@ ggsave(plot = voteplot, filename = paste("~/src/ukEUvote/graphs/votes_",format(n
 # print votes over all hours on terminal
 maxHvote - minHvote
 
+# Zooming in on specific times
+# voteplot + coord_cartesian(xlim = c(votedfB$time[104],votedfB$time[178])) + geom_line(size=0.8)
