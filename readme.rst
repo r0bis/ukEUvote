@@ -1,34 +1,41 @@
 EU Referendum: Tracking UK government petition signature count
 --------------------------------------------------------------
-.. image:: https://github.com/r0bis/ukEUvote/blob/master/graphs/votes_2016_06_28-06_00.png
+.. image:: https://github.com/r0bis/ukEUvote/blob/master/graphs/votes_2016_06_28-10_00.png
 
 Latest news:
 ~~~~~~~~~~~~
 
-* Signatures still trickling in overnight and reached **3.9 million** at 6 AM today. 
-* Activity did slow down during during the working day from 24 K in the morning to 11 K about 6PM. However in the evening it picked up again peaking at 31 K and trailing to 16 K before 10 PM. On sunday activity was about 60 K per hour in the morning, then averaged 45,685 over next 13 hours. 
-* Now this repo automatically updates every 5 minutes and you can find latest `data <https://github.com/r0bis/ukEUvote/tree/master/data>`_ and half-hourly `graphs <https://github.com/r0bis/ukEUvote/tree/master/graphs>`_ in their respective directories. Graph on this page may lag behind a little.
-* In additon there is a brilliant data crunching page `that shows how many votes come from totally unexpected geographic locations and how many from Britain <http://kosso.eu/petition/#/>`_
+* Sorry - a bit of glitch with the automatic update - until **9 PM** tonight there will be no further update here; after 9 PM all the latest data for today will be available (that includes the front page graph, 5 minute updates in the ``data`` directory file ``voteBdata.csv`` and all the half-hourly graphs for today in ``graphs`` directory). I have to add one automatic command to the update script and I will get home only at 9 today.
+* Signatures still trickling in overnight and reached **3.9 million** at ~ 6 AM today. 
+* Activity did slow down during during the working Monday from 24 K in the morning to 11 K about 6PM. However in the evening it picked up again peaking at 31 K and trailing to 16 K before 10 PM. 
+* On Sunday activity was about 60 K per hour in the morning, then averaged 45,685 over next 13 hours. On Sunday before 2 PM 77 K signatures were discarded by the Government, it would appear - that is the notch you can see in the graph. Every internet based form can expect some people might use it improperly - please see *Disclaimer* at the bottom of this page. 
+* Now this repo automatically updates every 5 minutes and you can find latest `data <https://github.com/r0bis/ukEUvote/tree/master/data>`_ and half-hourly `graphs <https://github.com/r0bis/ukEUvote/tree/master/graphs>`_ in their respective directories. The graph on this page may lag behind an hour or two.
+
+Are the votes coming from Britain?
+==================================
+
+There is a very good data crunching page that shows how many votes come from Britain and how many from totally unexpected geographic locations `http://kosso.eu/petition/# <http://kosso.eu/petition/#/>`_. That page also shows distribution of votes according to constituencies. The page is updated every 10 seconds. 
+One thing to note is that **constituency** data is likely extracted from postcodes submitted in the petition form and the **geographical location** - automatically from the computer address that submission is coming from. Hence it may well make sense that in terms of computer address geolocation distribution Britain is in the first place and France in the second place - many British citizens do live in France. What is really interesting is the proportion of this signature location distribution.
 
 
 
 About this graph
 ~~~~~~~~~~~~~~~~
     
-This is a quick way to keep track of how fast new requests are coming in for the petition for the 2nd referendum on EU membership. Here I am not so much concerned with the obvious political aspects but with how to track and document the amount of votes for the petition and the speed with which they come in.
+This is a quick way to keep track of how fast new requests are coming in for the petition for the 2nd referendum on EU membership. In this project I am not so much concerned with the obvious political aspects but with how to track and document the amount of votes for the petition and the speed with which they come in.
 
-In fact I was quite sure the number of votes will stop around several hundred thousand - once the threshold is reached. But it did not happen.
+In fact I was quite sure the number of votes will stop around several hundred thousand - once the threshold was reached. But it did not happen.
 
-So that everybody could check the source code of the petition page and see that data collection method I am employing in my R script is valid I am including the link to `Petition to the UK Government for the 2nd EU referendum <https://petition.parliament.uk/petitions/131215>`_. Source code of a webpage is usually shown with ``Ctrl-U`` combination.
+So that everybody could check the source code of the petition page and see that data collection and display method I am employing in my R script is valid I am including the link to `Petition to the UK Government for the 2nd EU referendum <https://petition.parliament.uk/petitions/131215>`_. You can examine source code of that page alongside with the R scripts in this repository. Source code of any webpage is usually shown with ``Ctrl-U`` combination in your browser.
 
 Tasks
 ~~~~~
 
-* get the total number of undersigned people and time when the number was gathered
-* plot the the signature count against time
-* provide the data to general public
+* get the total number of undersigned people and the time when the number was collected
+* plot the the signature count against timepoints
+* provide the data to the general public
 
-It is the first stage of this small project. I am automatically running the data collection script ``voteBcount.R`` every 5 minutes. I am aming to update the graph manually by running the graph script ``votegraph.R`` manually. I will be pushing results to this github site a couple of times a day.
+It is the first stage of this small project. I am automatically running the data collection script ``voteBcount.R`` every 5 minutes. I update the graph by running the script ``votegraph.R`` every 30 minutes. I will be pushing results to this github site a couple of times a day, but the graph on this front page I may update only a few times a day.
 
 Most importantly - I do not interfere with the numbers I collect. For that reason everyone with basic R understanding (like me) can quite easily reproduce this data collection and graphing exercise. Hence everyone could replicate the results I have. 
 
