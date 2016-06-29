@@ -36,8 +36,8 @@ voteplot <- voteplot +
   theme_igray() + scale_colour_tableau()
 
 # save latest plot; files in graphs folder will be sorted automatically by name
-# ggsave(plot = voteplot, filename = paste("~/src/ukEUvote/graphs/votes_",format(now(), "%Y_%m_%d-%H_%M"),".png",sep=""), width=170, height=107, units="mm" , scale = 1.2)
-voteplot
+ggsave(plot = voteplot, filename = paste("~/src/ukEUvote/graphs/votes_",format(now(), "%Y_%m_%d-%H_%M"),".png",sep=""), width=170, height=107, units="mm" , scale = 1.2)
+# voteplot
 # output signature activity per hour (group by hour, then subtract min from max in that hour)
 # presently just print the countperhour on terminal.
 
