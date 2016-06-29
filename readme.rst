@@ -16,7 +16,7 @@ Latest news:
 Are the signatures coming from Britain?
 =======================================
 
-There is a very good data crunching page updated every 10 seconds that shows how many votes come from Britain and how many from totally unexpected geographic locations `http://kosso.eu/petition/# <http://kosso.eu/petition/#/>`_. That page also shows distribution of votes according to constituencies. 
+There is a very good data crunching page updated every 10 seconds that shows how many votes come from Britain and how many from totally unexpected geographic locations `http://kosso.eu/petition/# <http://kosso.eu/petition/#/>`_. That page also shows distribution of votes according to constituencies. This is also shown in Greg Jefferis analysis `http://rpubs.com/jefferis/EURef2Petition <http://rpubs.com/jefferis/EURef2Petition>`_
 
 One thing to note is that **constituency** data are likely extracted from postcodes submitted in the petition form and the **geographical location** - automatically from the computer address that submission is coming from. Hence it may well make sense that in terms of computer address geolocation distribution Britain is in the first place and France in the second place - many British citizens do live in France. What is really interesting is the proportion of this signature location distribution.
 
