@@ -1,10 +1,11 @@
 EU Referendum: Tracking UK government petition on 2nd referendum signature count
 --------------------------------------------------------------
-.. image:: https://github.com/r0bis/ukEUvote/blob/master/graphs/votes_2016_06_29-07_30.png
+.. image:: https://github.com/r0bis/ukEUvote/blob/master/graphs/votes_2016_06_29-09_30.png
 
 Latest news:
 ~~~~~~~~~~~~
 
+* **Wednesday morning:** activity starts picking up again as people wake up. It changes from a couple of hundred per hour at night to over 2.5 K per hour by 9 AM. Maybe I should add average numbers per day, or daily activity graphs to see if they are similar every day.
 * Tuesday night - **4 million signatures** reached. During the daylight **average activity: 5024 signatures per hour**
 * Signatures still trickling in Monday night and reached **3.9 million** at ~ 6 AM on Tuesday. 
 * Activity did slow down during during the working Monday from 24 K in the morning to 11 K about 6PM. However in the evening it picked up again peaking at 31 K and trailing to 16 K before 10 PM. 
@@ -16,7 +17,7 @@ Are the votes coming from Britain?
 
 There is a very good data crunching page that shows how many votes come from Britain and how many from totally unexpected geographic locations `http://kosso.eu/petition/# <http://kosso.eu/petition/#/>`_. That page also shows distribution of votes according to constituencies. The page is updated every 10 seconds. 
 
-One thing to note is that **constituency** data is likely extracted from postcodes submitted in the petition form and the **geographical location** - automatically from the computer address that submission is coming from. Hence it may well make sense that in terms of computer address geolocation distribution Britain is in the first place and France in the second place - many British citizens do live in France. What is really interesting is the proportion of this signature location distribution.
+One thing to note is that **constituency** data are likely extracted from postcodes submitted in the petition form and the **geographical location** - automatically from the computer address that submission is coming from. Hence it may well make sense that in terms of computer address geolocation distribution Britain is in the first place and France in the second place - many British citizens do live in France. What is really interesting is the proportion of this signature location distribution.
 
 About this graph
 ~~~~~~~~~~~~~~~~
