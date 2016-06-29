@@ -4,8 +4,8 @@ EU Referendum: Tracking UK government petition on 2nd referendum signature count
 
 Latest news:
 ~~~~~~~~~~~~
-
-* I have found proper scientific analysis of the petition data - definitely worth looking at: `http://rpubs.com/jefferis/EURef2Petition <http://rpubs.com/jefferis/EURef2Petition>`_. By @gsxej - Greg Jefferis on twitter.
+* Wednesday night - about **50 K** signatures accumulated today. 
+* I came across proper analysis of the petition data - definitely well worth looking at: `http://rpubs.com/jefferis/EURef2Petition <http://rpubs.com/jefferis/EURef2Petition>`_. By @gsxej - Greg Jefferis on twitter.
 * **Wednesday morning:** activity starts picking up again as people wake up. It changes from a couple of hundred per hour at night to over 2.5 K per hour by 9 AM. Maybe I should add average numbers per day, or daily activity graphs to see if they are similar every day.
 * Tuesday night - **4 million signatures** reached. During the daylight **average activity: 5024 signatures per hour**
 * Signatures still trickling in Monday night and reached **3.9 million** at ~ 6 AM on Tuesday. 
@@ -13,10 +13,10 @@ Latest news:
 * On Sunday activity was about 60 K per hour in the morning, then averaged 45,685 over next 13 hours. On Sunday before 2 PM 77 K signatures were discarded by the Government, it would appear - that is the notch you can see in the graph. Every internet based form can expect some people might use it improperly - please see *Disclaimer* at the bottom of this page. 
 * Now this repo automatically updates every 5 minutes and you can find latest `data <https://github.com/r0bis/ukEUvote/tree/master/data>`_ and half-hourly `graphs <https://github.com/r0bis/ukEUvote/tree/master/graphs>`_ in their respective directories. The graph on this page may lag behind an hour or two.
 
-Are the votes coming from Britain?
-==================================
+Are the signatures coming from Britain?
+=======================================
 
-There is a very good data crunching page that shows how many votes come from Britain and how many from totally unexpected geographic locations `http://kosso.eu/petition/# <http://kosso.eu/petition/#/>`_. That page also shows distribution of votes according to constituencies. The page is updated every 10 seconds. 
+There is a very good data crunching page updated every 10 seconds that shows how many votes come from Britain and how many from totally unexpected geographic locations `http://kosso.eu/petition/# <http://kosso.eu/petition/#/>`_. That page also shows distribution of votes according to constituencies. 
 
 One thing to note is that **constituency** data are likely extracted from postcodes submitted in the petition form and the **geographical location** - automatically from the computer address that submission is coming from. Hence it may well make sense that in terms of computer address geolocation distribution Britain is in the first place and France in the second place - many British citizens do live in France. What is really interesting is the proportion of this signature location distribution.
 
