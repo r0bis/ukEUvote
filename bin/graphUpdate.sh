@@ -6,4 +6,6 @@
 # file is not clobbered
 cd ~/src/ukEUvote
 LASTGRAPH=`ls ~/src/ukEUvote/graphs/ | tail -n 1`
-sed -e '~/src/ukEUvote/bin/graphUpdate.sed' ./readme.rst > ../readme.rst.tmp && mv ../readme.rst.tmp ./readme.rst
+sed -e '~/src/ukEUvote/bin/graphUpdate.sed' ./readme.rst > ../readme.rst.tmp && cat ./readme.rst.tmp
+
+# mv ../readme.rst.tmp ./readme.rst
