@@ -1,9 +1,10 @@
 EU Referendum: Tracking UK government petition on 2nd referendum signature count
 --------------------------------------------------------------
-.. image:: https://github.com/r0bis/ukEUvote/blob/master/graphs/votes_2016_06_29-22_30.png
+.. image:: https://github.com/r0bis/ukEUvote/blob/master/graphs/votes_2016_06_30-08_00.png
 
 Latest news:
 ~~~~~~~~~~~~
+* Thursday morning - activity predictably down. It is intersting to note as per Greg Jefferis analysis (see link below) - there is much lower than expected activity from Scotland and Northern Ireland.
 * Wednesday night - about **50 K** signatures accumulated today. 
 * I came across proper analysis of the petition data - definitely well worth looking at: `http://rpubs.com/jefferis/EURef2Petition <http://rpubs.com/jefferis/EURef2Petition>`_. By @gsxej - Greg Jefferis on twitter.
 * **Wednesday morning:** activity starts picking up again as people wake up. It changes from a couple of hundred per hour at night to over 2.5 K per hour by 9 AM. Maybe I should add average numbers per day, or daily activity graphs to see if they are similar every day.
