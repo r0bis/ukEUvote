@@ -7,6 +7,6 @@
 cd ~/src/ukEUvote
 pwd
 LASTGRAPH=`ls ~/src/ukEUvote/graphs/ | tail -n 1`
-sed -e s/(votes_2016_[0-9_-]{11}\.png)/$LASTGRAPH/g ./readme.rst > ../readme.rst.tmp && cat ../readme.rst.tmp | echo
+sed 's/(votes_2016_[0-9_-]{11}\.png)/$LASTGRAPH/g' ./readme.rst > ../readme.rst.tmp && cat ../readme.rst.tmp | echo
 
 # mv ../readme.rst.tmp ./readme.rst
