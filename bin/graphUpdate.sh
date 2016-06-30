@@ -5,7 +5,8 @@
 # this method will avoid backup files; if sed fails for whatever reason - the actual input
 # file is not clobbered
 cd ~/src/ukEUvote
+pwd
 LASTGRAPH=`ls ~/src/ukEUvote/graphs/ | tail -n 1`
-sed -e '~/src/ukEUvote/bin/graphUpdate.sed' ./readme.rst > ../readme.rst.tmp && cat ./readme.rst.tmp
+sed s/(votes_2016_[0-9_-]{11}\.png)/$LASTGRAPH/g '/home/r0bis/src/ukEUvote/bin/graphUpdate.sed' ./readme.rst > ../readme.rst.tmp && cat ../readme.rst.tmp
 
 # mv ../readme.rst.tmp ./readme.rst
