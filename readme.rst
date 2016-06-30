@@ -13,7 +13,7 @@ Latest news:
 * Signatures still trickling in Monday night and reached **3.9 million** at ~ 6 AM on Tuesday. 
 * Activity did slow down during during the working Monday from 24 K in the morning to 11 K about 6PM. However in the evening it picked up again peaking at 31 K and trailing to 16 K before 10 PM. 
 * On Sunday activity was about 60 K per hour in the morning, then averaged 45,685 over next 13 hours. On Sunday before 2 PM 77 K signatures were discarded by the Government, it would appear - that is the notch you can see in the graph. Every internet based form can expect some people might use it improperly - please see *Disclaimer* at the bottom of this page. 
-* Now this repo automatically updates every 5 minutes and you can find latest `data <https://github.com/r0bis/ukEUvote/tree/master/data>`_ and half-hourly `graphs <https://github.com/r0bis/ukEUvote/tree/master/graphs>`_ in their respective directories. The graph on this page may lag behind an hour or two.
+* Now this repo automatically updates every 5 minutes and you can find latest `data <https://github.com/r0bis/ukEUvote/tree/master/data>`_ and half-hourly `graphs <https://github.com/r0bis/ukEUvote/tree/master/graphs>`_ in their respective directories. Graph on this page is the latest.
 
 Are the signatures coming from Britain?
 =======================================
