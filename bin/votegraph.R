@@ -34,6 +34,7 @@ voteplot <- voteplot +
   annotate(hjust=1, "text", y=3287000, x=(now()-1000), label = paste("Maximum count reached so far: ", maxLab), colour = "darkred") +
   annotate(hjust=1, "text", y=2989000, x=(now()-1000), label = "Data collection started at on 26th June at 9 AM from \n https://petition.parliament.uk/petitions/131215") +
   annotate(hjust=1, "text", y=2905000, x=(now()-1000), label = paste("Signatures per hour over last 5 hours: ",labLast5hvotes)) +
+  annotate(hjust=1, "text", y=2860000, x=(now()-1000), label = "project page https://github.com/r0bis/ukeuvote") +
   scale_y_continuous(labels = comma) +
   theme_igray() + scale_colour_tableau()
 
