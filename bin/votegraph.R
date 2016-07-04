@@ -33,7 +33,7 @@ voteplot <- voteplot + geom_line(colour = "#008800", size = 1.2) +
   ggtitle(paste("2nd referendum petition vote counts on",format(now(), "%A %d %b, %Y @ %H:%M") ))
 # annotate and apply theme
 voteplot <- voteplot +
-  annotate(hjust=1, "text", y=3287000, x=(now()-1000), label = paste("Latest count reached: ", latestCount), colour = "darkred") +
+  annotate(hjust=1, "text", y=3287000, x=(now()-1000), label = paste("Latest count reached: ", format(latestCount,big.mark=",",scientific=FALSE)), colour = "darkred") +
   annotate(hjust=1, "text", y=2989000, x=(now()-1000), label = "Data collection started at on 26th June at 9 AM from \n https://petition.parliament.uk/petitions/131215") +
   annotate(hjust=1, "text", y=2905000, x=(now()-1000), label = paste("Signatures per hour over last 5 hours: ",labLast5hvotes)) +
   annotate(hjust=1, "text", y=2860000, x=(now()-1000), label = "project page https://github.com/r0bis/ukeuvote") +
