@@ -4,6 +4,7 @@ EU Referendum: Tracking UK government petition on 2nd referendum signature count
 
 Latest news:
 ~~~~~~~~~~~~
+* **Tuesday morning** - activity is certainly winding down. Hourly signatures are down to less than a hundred. Yesterday there was a *suspicious* spike of activity in the early hours; it seems it has been followed by government removing them (there is a small dip in the line on the 4th of July). 
 * **Thursday afternoon** signatures still coming in at rate about 1.2 K per hour; more than 10 K signatures today. Please do not pay attention to some ``0-s in signature count in last 5 hours`` - I had to take my computer offline for some time. It has now restarted data collection and the graph remains correct - for the couple of hours I did not have data, the line is interpolated.  
 * Thursday morning - activity predictably down overnight. Also: it is interesting to note as per Greg Jefferis analysis (see link below) - there is much lower than expected activity from **Scotland** and **Northern Ireland**.
 * Wednesday night - about **50 K** signatures accumulated today. 
