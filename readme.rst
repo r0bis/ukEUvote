@@ -1,6 +1,6 @@
 EU Referendum: Tracking UK government petition on 2nd referendum signature count
 --------------------------------------------------------------------------------
-.. image:: https://github.com/r0bis/ukEUvote/blob/master/graphs/votes_2016_07_08-13_30.png
+.. image:: https://github.com/r0bis/ukEUvote/blob/master/graphs/votes_2016_07_08-14_00.png
 
 Latest news:
 ~~~~~~~~~~~~
